@@ -1,0 +1,79 @@
+﻿@Html.DevExpress().ImageSlider(
+            settings =>
+            {
+                settings.Name = "imageSlider";
+                settings.EnableTheming = false;
+                settings.Width = 800;
+                settings.Height = 313;
+                settings.NavigateUrlFormatString = "javascript:void({0});";
+
+                settings.SettingsImageArea.ImageSizeMode = ImageSizeMode.ActualSizeOrFit;
+                settings.SettingsImageArea.NavigationButtonVisibility = ElementVisibilityMode.None;
+                settings.SettingsImageArea.ItemTextVisibility = ElementVisibilityMode.Always;
+                settings.SettingsImageArea.EnableLoopNavigation = true;
+                settings.SettingsNavigationBar.Mode = NavigationBarMode.Dots;
+
+                settings.SettingsSlideShow.AutoPlay = true;
+                settings.SettingsSlideShow.Interval = 3000;
+                settings.SettingsSlideShow.PausePlayingWhenMouseOver = true;
+                settings.SettingsSlideShow.PlayPauseButtonVisibility = ElementVisibilityMode.Always;
+                settings.SettingsSlideShow.StopPlayingWhenPaging = true;
+
+               
+                settings.Items.Add(
+                    item =>
+                    {
+                        item.ImageUrl = Url.Content("~/Images/冯浩正面照.jpg");
+                        item.NavigateUrl = "1";
+                        item.SetTextTemplateContent(
+                            "<h3 class='isdemoH3'>冯浩</h3>" +
+                            "<p>It takes 17 muscles to smile and 43 to frown. <a tabindex=\"-1\" href='javascript:void(1);'>Details »</a></p>"
+                        );
+                    }
+                );
+                settings.Items.Add(
+                    item =>
+                    {
+                        item.ImageUrl = Url.Content("~/Images/兰添正面照.jpg");
+                        item.NavigateUrl = "2";
+                        item.SetTextTemplateContent(
+                            "<h3 class='isdemoH3'>兰添</h3>" +
+                            "<p>Dolphins sleep with one eye open. <a tabindex=\"-1\" href='javascript:void(2);'>Details »</a></p>"
+                        );
+                    }
+                );
+                settings.Items.Add(
+                    item =>
+                    {
+                        item.ImageUrl = Url.Content("~/Images/Mindi正面照.jpg");
+                        item.NavigateUrl = "3";
+                        item.SetTextTemplateContent(
+                            "<h3 class='isdemoH3'>Mindi</h3>" +
+                            "<p>No piece of paper can be folded in half more than eight times. <a tabindex=\"-1\" href='javascript:void(3);'>Details »</a></p>"
+                        );
+                    }
+                );
+                settings.Items.Add(
+                    item =>
+                    {
+                        item.ImageUrl = Url.Content("~/Images/张丹正面照.jpg");
+                        item.NavigateUrl = "4";
+                        item.SetTextTemplateContent(
+                            "<h3 class='isdemoH3'>张丹</h3>" +
+                            "<p>In the average lifetime a person will walk the equivalent of five times around the equator. <a tabindex=\"-1\" href='javascript:void(4);'>Details »</a></p>"
+                        );
+                    }
+                );
+                settings.Items.Add(
+                    item =>
+                    {
+                        item.ImageUrl = Url.Content("~/Images/冯浩正面照.jpg");
+                        item.NavigateUrl = "5";
+                        item.SetTextTemplateContent(
+                            "<h3 class='isdemoH3'>Calories</h3>" +
+                            "<p>You burn more calories sleeping than you do watching TV. <a tabindex=\"-1\" href='javascript:void(5);'>Details »</a></p>"
+                        );
+                    }
+                );
+            }
+        ).GetHtml()

@@ -1,0 +1,98 @@
+﻿
+<!DOCTYPE html>
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>@ViewBag.Title - StepOne 美国教育</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+
+    @*Weibo Icon*@
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body style="padding-top:70px">
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("StepOne 美国教育", "Index", "Home", null, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            关于我们
+                            <span class="caret"></span>
+                            @*<em class="arrow-down"></em>*@
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation">@Html.ActionLink("成员介绍", "About", "Home")</li>
+                            <li role="presentation">@Html.ActionLink("学校资讯", "About", "Home")</li>
+                            @*<li role="presentation">@Html.ActionLink("在线培训", "Index", "OnlineTraining")</li>*@
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            留学服务
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation">@Html.ActionLink("寄宿高中", "Index", "HighSchool")</li>
+                            <li role="presentation">
+                                @Html.ActionLink("大学研究院", "UnderGraduateSchool", "SchoolApply")
+                            </li>
+                        </ul>
+                    </li>
+                    <li>@Html.ActionLink("典型案例", "Index", "Case")</li>
+                    <li>@Html.ActionLink("在线培训", "Index", "OnlineTraining")</li>
+                    <li>@Html.ActionLink("常见问题", "Index", "QandA")</li>
+                    <li>
+                        <div style="padding-top:15px;">
+                            <wb:follow-button uid="3829483350" type="red_1" width="67" height="20"></wb:follow-button>
+                        </div>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2261875421&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:2261875421:52" alt="点击这里给我发消息" title="点击这里给我发消息" /></a>
+                    </li>
+                </ul>
+                @*@Html.Partial("_LoginPartial")*@
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+    </div>
+    <footer id="footMain">
+        <div class="footer">
+            <div class="container">
+                <p class="text-muted">
+                    &copy; @DateTime.Now.Year - StepOne Education LLC
+                </p>
+            </div>
+        </div>
+    </footer>
+    @*sign up popup windows -- put here to get the correct position*@
+    <div class="modal fade" id="modalSignUp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class=" modal-dialog">
+            <div class="modal-content">
+                @Html.Partial("_Registration")
+            </div>
+        </div>
+    </div>
+
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

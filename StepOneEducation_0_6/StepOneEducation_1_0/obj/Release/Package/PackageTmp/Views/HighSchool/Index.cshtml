@@ -1,0 +1,65 @@
+﻿@model IEnumerable<StepOneEducation_1_0.Models.HighSchool>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <h2>美国寄宿高中</h2>
+        </div>
+        <div class="col-md-2">
+            <p>
+                @Html.ActionLink("Create New", "Create")
+            </p>
+        </div>
+    </div>
+    <table class="table table-hover">
+        <tr>
+            <th>
+                @*@Html.DisplayNameFor(model => model.Image)*@
+            </th>
+            <th style="text-align:center">
+                学校名称
+                @*@Html.DisplayNameFor(model => model.Name)*@
+            </th>
+            <th style="text-align:center">
+                所在城市
+                @*@Html.DisplayNameFor(model => model.Location)*@
+            </th>
+            <th style="text-align:center">
+                学费
+                @*@Html.DisplayNameFor(model => model.Tuition)*@
+            </th>
+            <th>Action</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <a href="@Url.Action("Details", "HighSchool", new{id = item.id} )">
+                        <img src="@Url.Action("GetImage", "HighSchool", new { id = item.id } )" style="width:100px; height:auto;" />
+                    </a>
+                </td>
+                <td style="text-align:center">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td style="text-align:center">
+                    @Html.DisplayFor(modelItem => item.Location)
+                </td>
+                <td style="text-align:center">
+                    @Html.DisplayFor(modelItem => item.Tuition)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

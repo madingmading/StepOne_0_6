@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-10 col-md-offset-1">
+        <center>
+        @Html.Partial("ImageSliderPartial")</center>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-4" style="text-align:center;">
+        <h2><span class="label label-primary" >留学服务</span></h2>
+        <div style="padding:15px 0 15px 0;" >
+            <img class="imgThumbnailLG" src="../Images/3.jpg" alt="留学服务" />
+        </div>
+        <p>
+            NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
+        </p>
+        <p><a class="btn btn-primary" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4" style="text-align:center;">
+        <h2><span class="label label-info">在线培训</span></h2>
+        <div style="padding:15px 0 15px 0;">
+            <img class="imgThumbnailLG" src="../Images/2.jpg" alt="留学服务" />
+        </div>
+        <p></p>
+        <p><a class="btn btn-info" href="@Url.Action("Index", "OnlineTraining")">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4 " style="text-align:center;">
+        <h2><span class="label label-success effectiveBracket">美国生活</span></h2>
+        <div style="padding:15px 0 15px 0;">
+            <img class="imgThumbnailLG" src="../Images/1.jpg" alt="留学服务" />
+        </div>
+        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+        <p><a class="btn btn-success" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+</div>

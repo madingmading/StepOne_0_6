@@ -1,0 +1,86 @@
+﻿@model StepOneEducation_1_0.Models.AppUser
+
+
+
+@using (Html.BeginForm("Register", "Account", FormMethod.Post, new { id = "signUpForm", @class = "form-horizontal", role = "form" }))
+{
+    <div class="modal-header">
+
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">创建新用户</h4>
+    </div>
+
+    <div class="modal-body">
+
+        @Html.AntiForgeryToken()
+        @*@Html.ValidationSummary()*@
+        <div class="form-group">
+            @Html.LabelFor(m => m.UserName, new { @class = "col-md-3 control-label " })
+            <div class="col-md-9">
+                @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", placeholder = "请输入用户名", required = "required " })
+                @Html.ValidationMessageFor(m => m.UserName)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Password, new { @class = "col-md-3 control-label " })
+            <div class="col-md-9">
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "请输入密码，至少六位" })
+                @Html.ValidationMessageFor(m => m.Password)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-3 control-label " })
+            <div class="col-md-9">
+                @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control", placeholder = "请输入确认密码" })
+                @Html.ValidationMessageFor(m => m.ConfirmPassword)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.email, new { @class = "col-md-3 control-label " })
+            <div class="col-md-9">
+                @Html.TextBoxFor(m => m.email, new { @class = "form-control", placeholder = "请输入Email" })
+                @Html.ValidationMessageFor(m => m.email)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.phoneNumber, new { @class = "col-md-3 control-label" })
+            <div class="col-md-9">
+                @Html.TextBoxFor(m => m.phoneNumber, new { @class = "form-control", placeholder = "请输入电话号码" })
+                @Html.ValidationMessageFor(m => m.phoneNumber)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.degree, new { @class = "col-md-3 control-label" })
+            <div class="col-md-9">
+                @Html.TextBoxFor(m => m.degree, new { @class = "form-control", placeholder = "请输入当前学位" })
+                @Html.ValidationMessageFor(m => m.degree)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-9 col-md-offset-3">
+                @Html.CheckBoxFor(m => m.isEmailInfor, new { @checked = "checked" })
+                @Html.LabelFor(m => m.isEmailInfor, new { @class = "control-label" })
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="button" class="btn btn-default" data-dismiss="modal" value="返回" />
+            <input type="submit" class="btn btn-default" value="注册" />
+        </div>
+    </div>
+}
+
+@*<script type="text/javascript">
+    $('#submit').on('click', function () {
+        var form = $('#signUpForm');
+
+        var func = function () {
+
+        };
+
+        })
+</script>*@
+

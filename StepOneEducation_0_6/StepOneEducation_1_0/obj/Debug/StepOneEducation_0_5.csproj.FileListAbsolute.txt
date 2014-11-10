@@ -1,0 +1,169 @@
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\StepOneEducation_1_0.dll.config
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\StepOneEducation_1_0.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\StepOneEducation_1_0.pdb
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Antlr3.Runtime.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\EntityFramework.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\EntityFramework.SqlServer.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.AspNet.Identity.Core.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Cookies.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Facebook.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Google.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.OAuth.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Twitter.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Web.Infrastructure.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Newtonsoft.Json.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Owin.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Helpers.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Mvc.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Optimization.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Razor.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.WebPages.Deployment.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.WebPages.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.WebPages.Razor.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\WebGrease.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\EntityFramework.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\EntityFramework.SqlServer.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.AspNet.Identity.Core.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Cookies.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.OAuth.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Helpers.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Mvc.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Optimization.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Razor.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.WebPages.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.WebPages.Deployment.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.WebPages.Razor.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Newtonsoft.Json.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Antlr3.Runtime.pdb
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Facebook.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Google.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Twitter.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\obj\Debug\StepOneEducation_0_5.csprojResolveAssemblyReference.cache
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\obj\Debug\StepOneEducation_1_0.dll
+F:\新机\Documents\Visual Studio 2013\Projects\StepOneEducation_0_5\StepOneEducation_1_0\obj\Debug\StepOneEducation_1_0.pdb
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\obj\Debug\StepOneEducation_0_5.csprojResolveAssemblyReference.cache
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\obj\Debug\StepOneEducation_1_0.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\obj\Debug\StepOneEducation_1_0.pdb
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\StepOneEducation_1_0.dll.config
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\StepOneEducation_1_0.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\StepOneEducation_1_0.pdb
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Antlr3.Runtime.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Common.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\EntityFramework.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\EntityFramework.SqlServer.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.AspNet.Identity.Core.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Cookies.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Facebook.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Google.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.OAuth.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Twitter.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Web.Infrastructure.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Newtonsoft.Json.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Owin.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Helpers.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Mvc.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Optimization.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Razor.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.WebPages.Deployment.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.WebPages.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.WebPages.Razor.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\WebGrease.dll
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Common.pdb
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\EntityFramework.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\EntityFramework.SqlServer.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.AspNet.Identity.Core.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Cookies.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.OAuth.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Helpers.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Mvc.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Optimization.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Razor.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.WebPages.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.WebPages.Deployment.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.WebPages.Razor.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Newtonsoft.Json.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Antlr3.Runtime.pdb
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Facebook.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Google.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Twitter.xml
+D:\StepOne Code\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\StepOneEducation_1_0.dll.config
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\StepOneEducation_1_0.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\StepOneEducation_1_0.pdb
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Antlr3.Runtime.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Common.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\EntityFramework.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\EntityFramework.SqlServer.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Newtonsoft.Json.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Owin.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Helpers.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Mvc.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Optimization.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Razor.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.WebPages.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.WebPages.Razor.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\WebGrease.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Common.pdb
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\EntityFramework.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\EntityFramework.SqlServer.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Helpers.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Mvc.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Optimization.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.Razor.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.WebPages.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\System.Web.WebPages.Razor.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Newtonsoft.Json.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Antlr3.Runtime.pdb
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\obj\Debug\StepOneEducation_0_5.csprojResolveAssemblyReference.cache
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\obj\Debug\StepOneEducation_1_0.dll
+C:\Users\cuoh\Documents\GitHub\StepOne_0_5\StepOneEducation_0_5\StepOneEducation_1_0\obj\Debug\StepOneEducation_1_0.pdb

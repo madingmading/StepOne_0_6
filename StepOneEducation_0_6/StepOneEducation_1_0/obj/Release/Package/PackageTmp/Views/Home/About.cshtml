@@ -1,0 +1,70 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <section>
+                <div class="jumbotron" style="padding-top:1px;">
+                    <h3 style="text-align:center;" class="page-header">StepOne 美国教育服务简介</h3>
+                    <center>
+                        <img src="~/Images/四人办公室合影.png" class="img-responsive img-rounded" alt="Responsive image" style="width:500px;" />
+                    </center>
+                    <span class="text-info center-block" style="font-size:medium; margin-top:10px ">
+                        我们的团队拥有真实的美国高中至博士留学经验（包括2所常青藤院校），并致力于申请者分享我们的成功(和失败)经验。
+                        我们反对把留学服务模式化，而是会依据不同学生的背景情况制定最适合的留学方案，细心听取了解家长和学生的需求。
+                        我们的多名成员从事教育相关的全职工作，有独特的能力提供语言培训，入学和生活辅导，签证和教育咨询等延伸服务。
+                    </span>
+                </div>
+            </section>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1">
+            <img src="~/Images/冯浩正面照.jpg" class="img-responsive img-thumbnail" alt="Responsive image" />
+            <p><strong>冯浩（Nick Feng）</strong> -- 美国佛吉尼亚州山南道大学伯德商学院MBA。</p>
+            @*<div id="ptoggle" class="collapse">
+                    曾任职于美国四大移动运营商之一的Sprint。2010年涉足美国名校留学申请服务。拥有美国高中申请、商学院和理工类大学申请的丰富成功经验。擅长对高中，大学留学生进行美国入学的生活和文化指导。
+                </div>*@
+            <button id="myButton" class="btn btn-default" data-toggle="popover" title="My Title">click me</button>
+        </div>
+        <div class="col-md-2">
+            <img src="~/Images/兰添正面照.jpg" class="img-responsive img-thumbnail" alt="Responsive image" />
+            <p>
+                <strong>兰添（Tian Lan)</strong> -- 清华大学电子工程学士， 多伦多大学电子工程硕士，美国普林斯顿大学电子工程博士。
+                现任职于美国乔治华盛顿大学电子工程系教授，博士生导师。负责多个美国国防部先进研究项目局(DARPA)和美国国家科学基金会(NSF)的科研项目。
+            </p>
+        </div>
+        <div class="col-md-2">
+            <img src="~/Images/Mindi正面照.jpg" class="img-responsive img-thumbnail" alt="Responsive image" />
+            <p>
+                <strong>Mindi M. Lin</strong> --加州州立大学弗雷斯诺分校自由教育专业学士，高等教育辅导专业硕士。
+                14岁与父母移民美国，具有完善的美国教育体系知识，读研期间担任加州州立大学教育辅导员。拥有美国联邦航空管理局(FAA)和华盛顿史密森尼博物院(Smithsonian Institute)的实习经历。曾任亚太裔美国奖学基金协会(APIASF)志愿者。目前在亚太裔高校协会(APIACU)兼职。
+            </p>
+        </div>
+        <div class="col-md-2">
+            <img src="~/Images/张丹正面照.jpg" class="img-responsive img-thumbnail" alt="Responsive image" />
+            <p>
+                <strong>张丹（Dan Zhang）</strong>  -- 中央音乐学院音乐表演专业学士，耶鲁大学音乐表演专业硕士，曾在马里兰交响乐团(Maryland Symphony Orchestra)，
+                康州东部交响乐团（Eastern Connecticut Symphony Orchestra）和费尔费克斯交响乐团（Fairfax Symphony Orchestra）任职。多次在美国举办个人独奏音乐会。拥有美国常青藤艺术类院校申请和学习经历。
+            </p>
+        </div>
+        <div class="col-md-2">
+            <img src="~/Images/Christ正面照.jpg" class="img-thumbnail" alt="Responsive image" />
+            <p>
+                <strong>Christian Smith </strong>-- 美国教育高级咨询顾问， 加州“Gear Up" 教育项目咨询指导。 从事美国本地教育多年，同时具有特殊教育教师主力经历。
+                作为我们请到的教育咨询顾问，他将向我们提供美国本土教育体系资源，将作为美国本土文化和留学生之间的桥梁。
+            </p>
+        </div>
+        <div class="col-md-1 col-md-offset-11">
+            <a href="#" id="backToTop" class="glyphicon glyphicon-circle-arrow-up"></a>
+        </div>
+    </div>
+</div>
+<script src="~/Scripts/bootstrap.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#myButton').popover();
+    });
+</script>
+

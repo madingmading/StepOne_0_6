@@ -1,0 +1,101 @@
+﻿@{
+    ViewBag.Title = "在线培训类别";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container" style="background-color:white">
+    <!-- Top Navigation -->
+    @*<div class="codrops-top clearfix">
+            <a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/SVGDrawingAnimation/"><span>Previous Demo</span></a>
+            <span class="right"><a href="http://cargocollective.com/isaac317">Artwork by Isaac Montemayor</a><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=18145"><span>Back to the Codrops Article</span></a></span>
+        </div>*@
+    <header>
+        <h2 style="font-family: Tahoma, Geneva, sans-serif;text-align:center">在线培训</h2>
+    </header>
+    <section id="grid" class="grid clearfix">
+        <a href="@Url.Action("Index", "EssayCorrection")" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+            <figure>
+                <img src="~/Images/作文批改.jpg" />
+                <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" /></svg>
+                <figcaption>
+                    <h2>作文批改</h2>
+                    <p>美国当地著名高中，大学在职教师为您的作文把关，用最美国的方式完美您的写作技巧</p>
+                </figcaption>
+            </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+            <figure>
+                <img src="~/Images/在线面对面.jpg" />
+                <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" /></svg>
+                <figcaption>
+                    <h2>在线面对面</h2>
+                    <p>正在建设中。。。</p>
+                </figcaption>
+            </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+            <figure>
+                <img src="~/Images/课堂.jpg" />
+                <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" /></svg>
+                <figcaption>
+                    <h2>趣味课堂</h2>
+                    <p>正在建设中。。。</p>
+                </figcaption>
+            </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+            <figure>
+                <img src="~/Images/会议.jpg" />
+                <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" /></svg>
+                <figcaption>
+                    <h2>当地会议</h2>
+                    <p>正在建设中。。。</p>
+                </figcaption>
+            </figure>
+        </a>
+
+    </section>
+    @*<section class="related">
+            <p>If you enjoyed these effects you might also like:</p>
+            <div><a href="http://tympanus.net/Tutorials/CaptionHoverEffects/"><h4>Caption Hover Effects</h4></a></div>
+            <div><a href="http://tympanus.net/Development/AnimatedSVGIcons/"><h4>Animated SVG Icons</h4></a></div>
+        </section>*@
+</div><!-- /container -->
+@*<script src="~/Scripts/snap.svg-min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />*@
+<script src="~/Scripts/snap.svg-min.js"></script>
+<!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+<script>
+    (function () {
+
+        function init() {
+            var speed = 250,
+                easing = mina.easeinout;
+
+            [].slice.call(document.querySelectorAll('#grid > a')).forEach(function (el) {
+                var s = Snap(el.querySelector('svg')), path = s.select('path'),
+                    pathConfig = {
+                        from: path.attr('d'),
+                        to: el.getAttribute('data-path-hover')
+                    };
+
+                el.addEventListener('mouseenter', function () {
+                    path.animate({ 'path': pathConfig.to }, speed, easing);
+                });
+
+                el.addEventListener('mouseleave', function () {
+                    path.animate({ 'path': pathConfig.from }, speed, easing);
+                });
+            });
+        }
+
+        init();
+
+    })();
+</script>
+

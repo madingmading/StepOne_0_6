@@ -1,0 +1,57 @@
+﻿@model StepOneEducation_1_0.Models.HighSchool
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>HighSchool</h4>
+	<hr />
+    <div style="text-align:center;">
+        <img src="@Url.Action("GetImage", "HighSchool", new { id = Model.id })" style="width:100px; height:auto" />
+    </div>
+    <dl class="dl-horizontal">        
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tuition)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tuition)
+        </dd>
+    </dl>
+    <div class="media">
+        @*<a class="pull-left" href="#">
+            <img class="media-object" src="..." alt="...">
+        </a>*@
+        <div class="media-body" style="text-align:center">
+            <h4 class="media-heading">视频简介</h4>
+            <iframe width="320" height="190" src="//www.youtube.com/embed/VEas2IukgTg" frameborder="0" allowfullscreen></iframe>
+            @*<video controls>
+                <source src="https://www.youtube.com/watch?v=rbCxY1kGiSU&list=PL6M7Y8Qc8FsO5Ld4Tiox8VtXLBk4GRMoK" type="video/mp4" />
+            </video>*@
+        </div>
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

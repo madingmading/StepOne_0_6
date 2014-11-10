@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>@ViewBag.Title - Step One 教育服务中心</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    @*Attch DevExpress javascript files*@
+    @Html.DevExpress().GetScripts(
+        new Script { ExtensionSuite = ExtensionSuite.All },
+        new Script { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+        new Script { ExtensionSuite = ExtensionSuite.HtmlEditor },
+        new Script { ExtensionSuite = ExtensionSuite.GridView },
+        new Script { ExtensionSuite = ExtensionSuite.PivotGrid },
+        new Script { ExtensionSuite = ExtensionSuite.Editors },
+        new Script { ExtensionSuite = ExtensionSuite.Chart },
+        new Script { ExtensionSuite = ExtensionSuite.Report },
+        new Script { ExtensionSuite = ExtensionSuite.Scheduler },
+        new Script { ExtensionSuite = ExtensionSuite.TreeList },
+        new Script { ExtensionSuite = ExtensionSuite.Icons },
+        new Script { ExtensionSuite = ExtensionSuite.DashboardViewer },
+        new Script { ExtensionSuite = ExtensionSuite.Spreadsheet }
+    )
+
+    @* Attach the required style sheets *@
+    @Html.DevExpress().GetStyleSheets(
+        new StyleSheet { ExtensionSuite = ExtensionSuite.All },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Editors },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.HtmlEditor },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.GridView },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.PivotGrid },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Chart },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Report },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Scheduler },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.TreeList },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Icons },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.DashboardViewer },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Spreadsheet }
+    )
+    @*Weibo Icon*@
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body style="padding-top:70px">
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Step One 教育服务中心", "Index", "Home", null, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            公司基本情况
+                            <span class="caret"></span>
+                            @*<em class="arrow-down"></em>*@
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation">@Html.ActionLink("中心介绍", "About", "Home")</li>
+                            <li role="presentation">@Html.ActionLink("学校资讯", "About", "Home")</li>
+                            <li role="presentation">@Html.ActionLink("在线培训", "Contact", "Home")</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        留学服务
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation">@Html.ActionLink("寄宿高中", "Index", "HighSchool")</li>
+                            <li role="presentation">@Html.ActionLink("大学研究院", "UnderGraduateSchool", "SchoolApply")</li>
+                        </ul>
+                    <li>@Html.ActionLink("在线培训", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("教育问答", "Contact", "Home")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />        
+    </div>
+    <div class="footer">
+        <div class="container">
+            <p class="text-muted">
+                &copy; @DateTime.Now.Year - StepOne Education
+                <wb:follow-button uid="3829483350" type="red_1" width="67" height="24"></wb:follow-button>
+                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2261875421&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:2261875421:52" alt="点击这里给我发消息" title="点击这里给我发消息" /></a>
+            </p>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,86 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("SendFileByEmail", "EssayCorrection", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <p style="text-decoration: underline; text-align: right; padding-bottom:0px;">请选择文章类型：</p>
+            </div>
+            <div class="col-md-8">
+                <form class="form-horizontal" role="form">
+                    <div class="row" style="margin-bottom:10px; text-align:right;">
+                        <div class="col-xs-1">
+                            <input type="radio" class="hidden" id="inputToffel" value="inputToffel" name="essayType" />
+                            <img src="~/Images/托福.png" style="width:25px;height:auto; margin-bottom:0px; padding-bottom:0px;" class="img-responsive img-radio" />
+                            <button type="button" class="btn btn-info btn-xs" style="width: 25px; height: 13px; font-size: 8px; text-align: center; margin-top: 0px; padding-top: 0px; padding-left:2px">托福</button>
+                            
+                        </div>
+                        <div class="col-xs-1">
+                            <img src="~/Images/GRE.png" style="width:25px;height:auto; margin-bottom:0px; padding-bottom:0px;" class="img-responsive img-radio" />
+                            <button type="button" class="btn btn-info btn-xs" style="width: 25px; height: 13px; font-size: 8px; text-align: center; margin-top: 0px; padding-top: 0px; padding-left: 2px; ">GRE</button>
+                            <input type="radio" class="hidden" id="inputGRE" value="inputGRE" name="essayType" />
+                        </div>
+                        <div class="col-xs-1">
+                            <img src="~/Images/GMAT.png" style="width:25px;height:auto; margin-bottom:0px; padding-bottom:0px;" class="img-responsive img-radio" />
+                            <button type="button" class="btn btn-info btn-xs" style="width: 25px; height: 13px; font-size: 8px; text-align: center; margin-top: 0px; padding-top: 0px; padding-left: 1px; ">GMAT</button>
+                            <input type="checkbox" class="hidden" id="inputGMAT" value="inputGMAT" name="essayType" />
+                        </div>
+                        <div class="col-xs-1">
+                            <img src="~/Images/其他写作.png" style="width:25px;height:auto; margin-bottom:0px; padding-bottom:0px;" class="img-responsive img-radio" />
+                            <button type="button" class="btn btn-info btn-xs" style="width: 25px; height: 13px; font-size: 8px; text-align: center; margin-top: 0px; padding-top: 0px; padding-left: 2px">其它</button>
+                            <input type="radio" class="hidden" id="inputOtherWriting" value="inputOtherWriting" name="essayType" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-2" style="margin-bottom:10px; text-align:right; text-decoration:underline">
+                请上传文章：
+            </div>
+            <div class="col-md-8">
+                <input type="file" name="essaySubmit" />
+            </div>
+            <div class="col-md-2">
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-2" style="margin-bottom:10px; text-align:right">
+                <p style="text-decoration:underline; text-align:right">请输入文章内容：</p>
+            </div>
+            <div class="col-md-8">
+                <textarea name="txtEssay" rows="8" class="form-control" style="width: 100%; height: 450px; max-width: 661px; " spellcheck="true" cols="50"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2" style="margin-top: 10px">
+                <button type="submit">提交</button>
+            </div>
+        </div>
+    </div>
+}
+
+<script type="text/javascript">
+    $(function () {
+        $(".btn-info").click(function () { $(this).prev().attr('checked', true); })
+        //$('.btn-xs').click(function (e) {
+        //    $(this).prev().attr('checked', true);
+        //    $('.btn-xs').not(this).removeClass('active')
+        //        .siblings('input').prop('checked', false)
+        //        .siblings('.img-radio').css('opacity', '50');
+        //    $(this).addClass('active')
+        //        .siblings('input').prop('checked', true)
+        //        .siblings('.img-radio').css('opacity', '100');
+        //});
+    });
+
+</script>

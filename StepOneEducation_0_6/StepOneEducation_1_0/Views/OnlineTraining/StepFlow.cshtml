@@ -1,0 +1,242 @@
+﻿@{
+    ViewBag.Title = "StepFlow";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="container" style="margin-top: 100px; margin-bottom: 100px;">
+    @*<div class="row">
+            <div class="progress" id="progress1">
+                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                </div>
+                <span class="progress-type">Overall Progress</span>
+                <span class="progress-completed">20%</span>
+            </div>
+        </div>*@
+    <div class="row">
+        <div class="row step">
+            <div id="div1" class="col-md-2 activestep" onclick="javascript: resetActive(event, 0, 'step-1');" style="padding-top:10px">
+                <img src="~/Images/teacher-male.png" />
+                <p>了解外教</p>
+            </div>
+            <div class="col-md-2" onclick="javascript: resetActive(event, 20, 'step-2');" style="padding-top:10px">
+                <img src="~/Images/email.png" />
+                <p>邮件联系</p>
+            </div>
+            <div class="col-md-2" onclick="javascript: resetActive(event, 40, 'step-3');" style="padding-top:10px">
+                <img src="~/Images/news.png" />
+                <p>提交作文</p>
+            </div>
+            <div class="col-md-2" onclick="javascript: resetActive(event, 60, 'step-4');" style="padding-top:10px">
+                <img src="~/Images/check-list-light.png" />
+                <p>外教批改</p>
+            </div>
+            <div class="col-md-2" onclick="javascript: resetActive(event, 80, 'step-5');" style="padding-top:10px">
+                <img src="~/Images/Time-Management-Icon.png" />
+                <p>确定一对一时间</p>
+            </div>
+            <div id="last" class="col-md-2" onclick="javascript: resetActive(event, 100, 'step-6');" style="padding-top:10px">
+                <img src="~/Images/chat.png" />
+                <p>外教视频点评</p>
+            </div>
+        </div>
+    </div>
+    <div class="row setup-content step activeStepInfo" id="step-1">
+        <div class="col-xs-12">
+            <div class="col-md-12 well text-center">
+                <h1 style="font-weight:bolder">第一步</h1>
+                <div><a class="btn btn-info" href="@Url.Action("TeacherList", "OnlineTraining")">了解外教</a></div>
+                <div style="padding-top:15px">
+                    学生通过我们的网站信息来了解美国当地学校的英语老师，他们都是美国当地知名学校的英语老师，培育了许多美国当地的学生去到知名大学和研究所。先了解了解他们吧！
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row setup-content step hiddenStepInfo" id="step-2">
+    <div class="col-xs-12">
+        <div class="col-md-12 well text-center">
+            <h1 style="font-weight:bolder">第二步</h1>
+            <div><a class="btn btn-info" href="@Url.Action("ContactUs", "ContactUs")">了解外教</a></div>
+            <div style="padding-top:15px">
+                通过邮件联系，收集学生信息，学生的要求和所需要的费用，通过此步确定时间流程。
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row setup-content step hiddenStepInfo" id="step-3">
+    <div class="col-xs-12">
+        <div class="col-md-12 well text-center">
+            <h1 style="font-weight:bolder">第三步</h1>
+            <div><a class="btn btn-info" href="@Url.Action("index", "EssayCorrection" )">提交作文</a></div>
+            <div style="padding-top:15px">
+                通过Email提交作文给我们，我们讲安排学生所选老师批改作文。
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row setup-content step hiddenStepInfo" id="step-4">
+    <div class="col-xs-12">
+        <div class="col-md-12 well text-center">
+            <h1 style="font-weight:bolder">第四步</h1>
+            <h3 class="btn btn-info">外教批改</h3>
+            <div style="padding-top:15px">
+                老师根据所定时间安排，给一定的时间给老师仔细批改作文。
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row setup-content step hiddenStepInfo" id="step-5">
+    <div class="col-xs-12">
+        <div class="col-md-12 well text-center">
+            <h1 style="font-weight:bolder">第五步</h1>
+            <h3 class="btn btn-info">确定一对一时间</h3>
+            <div style="padding-top:15px">
+                通过协调，最终确定最后的一对一的视频点评的时间，一般时间为1小时。
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row setup-content step hiddenStepInfo" id="step-6">
+    <div class="col-xs-12">
+        <div class="col-md-12 well text-center">
+            <h1 style="font-weight:bolder">第六步</h1>
+            <h3 class="btn btn-info">视频点评</h3>
+            <div style="padding-top:15px">
+                在确定的时间上，外教进行一对一的视频作文点评，仔细的分析作文所出错的部分，并讲述如何提高能力和更接近欧美当地人的写作习惯，从而迎合评判官的评判。
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    .hiddenStepInfo {
+        display: none;
+    }
+
+    .activeStepInfo {
+        display: block !important;
+    }
+
+    .underline {
+        text-decoration: underline;
+    }
+
+    .step {
+        margin-top: 40px;
+    }
+
+    .progress {
+        position: relative;
+        height: 25px;
+    }
+
+        .progress > .progress-type {
+            position: absolute;
+            left: 0px;
+            font-weight: 800;
+            padding: 3px 30px 2px 10px;
+            color: rgb(255, 255, 255);
+            background-color: rgba(25, 25, 25, 0.2);
+        }
+
+        .progress > .progress-completed {
+            position: absolute;
+            right: 0px;
+            font-weight: 800;
+            padding: 3px 10px 2px;
+        }
+
+    .step {
+        text-align: center;
+    }
+
+        .step .col-md-2 {
+            background-color: #fff;
+            border: 1px solid #808080;
+            border-right: none;
+        }
+
+            .step .col-md-2:last-child {
+                border: 1px solid #C0C0C0;
+            }
+
+            .step .col-md-2:first-child {
+                border-radius: 5px 0 0 5px;
+            }
+
+            .step .col-md-2:last-child {
+                border-radius: 0 5px 5px 0;
+            }
+
+            .step .col-md-2:hover {
+                color: #a19292;
+                cursor: pointer;
+            }
+
+        .step .activestep {
+            color: #000000;
+            height: 100px;
+            margin-top: -7px;
+            padding-top: 7px;
+            border-left: 6px solid #808080 !important;
+            border-right: 6px solid #808080 !important;
+            border-top: 3px solid #808080 !important;
+            border-bottom: 3px solid #808080 !important;
+            vertical-align: central;
+        }
+
+        .step .fa {
+            padding-top: 15px;
+            font-size: 40px;
+        }
+</style>
+
+<script type="text/javascript">
+    function resetActive(event, percent, step) {
+        //$(".progress-bar").css("width", percent + "%").attr("aria-valuenow", percent);
+        //$(".progress-completed").text(percent + "%");
+
+        $("div").each(function () {
+            if ($(this).hasClass("activestep")) {
+                $(this).removeClass("activestep");
+            }
+        });
+
+        if (event.target.className == "col-md-2") {
+            $(event.target).addClass("activestep");
+        }
+        else {
+            $(event.target.parentNode).addClass("activestep");
+        }
+
+        hideSteps();
+        showCurrentStepInfo(step);
+    }
+
+    function hideSteps() {
+        $("div").each(function () {
+            if ($(this).hasClass("activeStepInfo")) {
+                $(this).removeClass("activeStepInfo");
+                $(this).addClass("hiddenStepInfo");
+            }
+        });
+    }
+
+    function showCurrentStepInfo(step) {
+        var id = "#" + step;
+        $(id).addClass("activeStepInfo");
+    }
+</script>
+
+
+
+@*<link rel="stylesheet" type="text/css" href="OnlineTrainingIndex.css">*@
+
+
+
+
+
+

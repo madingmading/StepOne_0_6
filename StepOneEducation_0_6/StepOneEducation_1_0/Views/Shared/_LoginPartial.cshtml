@@ -1,0 +1,68 @@
+﻿@model StepOneEducation_1_0.Models.AppUser
+
+@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Manage", "Account", routeValues: null, htmlAttributes: new { title = "Manage" })
+            </li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+        </ul>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        @*<li data-toggle="dropdown">@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>*@
+        @*<li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>*@
+        <li>
+            <a href="#" data-toggle="modal" data-target="#modalSignUp">注册账户</a>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">登录<strong class="caret"></strong></a>
+            <div class="dropdown-menu" style="padding: 15px 15px 15px 15px; ">
+                @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { id = "loginFrom" }))
+                {
+                    @Html.AntiForgeryToken();
+
+                    @Html.TextBoxFor(o => o.UserName, new { @Style = "margin-bottom: 15px;", @size = "30", placeholder = "请输入用户名", @type = "text" })
+                    @Html.ValidationMessageFor(o => o.UserName)
+
+                    @Html.TextBoxFor(o => o.Password, new { @Style = "margin-bottom: 15px;", @size = "30", placeholder = "请输入密码", type = "password" })
+                    @Html.ValidationMessageFor(o => o.Password)
+
+                    @Html.CheckBoxFor(o => o.RememberMe, new { @Styles = "float: left; margin-right: 10px;", @value = "1" })
+                    @*<input id="user_username" style="margin-bottom: 15px;" type="text" name="user[username]" size="30" placeholder="请输入邮箱" />
+                        <input id="user_password" style="margin-bottom: 15px;" type="password" name="user[password]" size="30" placeholder="请输入密码" />
+                        <input id="user_remember_me" style="float: left; margin-right: 10px;" type="checkbox" name="user[remember_me]" value="1" />*@
+                    <label class="string optional" for="user_remember_me">记住邮箱</label>
+                    <a href="#" class="font" style="color:black; text-decoration:underline; float:right; font-size:x-small">找回邮箱/密码</a>
+                    <input class="btn btn-primary" style="clear: left; width: 100%; height: 32px; font-size: 13px;" type="submit" name="commit" value="登陆" />
+
+                }
+            </div>
+
+        </li>
+    </ul>
+
+
+}
+
+
+<script type="text/javascript">
+    $(function () {
+        // Setup drop down menu
+        $('.dropdown-toggle').dropdown();
+
+        // Fix input element click problem
+        $('.dropdown input, .dropdown label').click(function (e) {
+            e.stopPropagation();
+        });
+    });
+</script>
+
