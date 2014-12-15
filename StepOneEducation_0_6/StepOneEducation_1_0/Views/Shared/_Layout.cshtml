@@ -53,6 +53,21 @@
                     <li>@Html.ActionLink("典型案例", "Index", "Case")</li>
                     <li>@Html.ActionLink("在线培训", "Index", "OnlineTraining")</li>
                     <li>@Html.ActionLink("常见问题", "Index", "QandA")</li>
+                    <li>@Html.ActionLink("注册", "Register", "Member")</li>
+                    @if (User.Identity.IsAuthenticated)
+{
+    @:
+    <li>@User.Identity.Name</li>
+    @:
+    <li>@Html.ActionLink("注销", "Logout", "Member")</li>
+                        }
+else
+{
+    @:
+    <li>@Html.ActionLink("登录", "Login", "Member")</li>
+    @:
+    <li>@Html.ActionLink("注册", "Register", "Member")</li>
+                        }
                     <li>
                         <div style="padding-top:15px;">
                             <wb:follow-button uid="3829483350" type="red_1" width="67" height="20"></wb:follow-button>
@@ -80,13 +95,13 @@
         </div>
     </footer>
     @*sign up popup windows -- put here to get the correct position*@
-    <div class="modal fade" id="modalSignUp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    @*<div class="modal fade" id="modalSignUp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class=" modal-dialog">
             <div class="modal-content">
                 @Html.Partial("_Registration")
             </div>
         </div>
-    </div>
+    </div>*@
 
 
 

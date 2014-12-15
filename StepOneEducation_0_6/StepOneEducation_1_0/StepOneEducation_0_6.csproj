@@ -168,11 +168,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\CaseController.cs" />
     <Compile Include="Controllers\ContactUsController.cs" />
     <Compile Include="Controllers\EssayCorrectionController.cs" />
     <Compile Include="Controllers\HighSchoolController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MemberController.cs" />
     <Compile Include="Controllers\OnlineTrainingController.cs" />
     <Compile Include="Controllers\QandAController.cs" />
     <Compile Include="Global.asax.cs">
@@ -183,11 +185,15 @@
     <Compile Include="Models\AppUser.cs" />
     <Compile Include="Models\HighSchool.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Member.cs" />
+    <Compile Include="Models\MemberContext.cs" />
+    <Compile Include="Models\MemberLoginViewModel.cs" />
     <Compile Include="Models\StepOneDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\MemberRegisterEMailTemplate.htm" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -292,10 +298,12 @@
     <Content Include="Views\ContactUs\ContactUs.cshtml" />
     <Content Include="Views\QandA\Index.cshtml" />
     <Content Include="Views\Case\Index.cshtml" />
+    <Content Include="Views\Member\Register.cshtml">
+      <BrowseToURL>~/Member/Register</BrowseToURL>
+    </Content>
+    <Content Include="Views\Member\Login.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />

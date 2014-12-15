@@ -1,0 +1,54 @@
+﻿@model StepOneEducation_1_0.Models.MemberLoginViewModel
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>会员登录</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>请输入您的账号，密码</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Email)
+        </div>
+        <div class="editor-field">
+            @*@Html.EditorFor(model => model.Email)*@
+            @Html.TextBoxFor(model => model.Email, new { data_val_email = "请输入 Email 地址" })
+            @Html.ValidationMessageFor(model => model.Email)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Password)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Password)
+            @Html.ValidationMessageFor(model => model.Password)
+        </div>
+
+        <p>
+            <input type="submit" value="登录" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("返回首页", "Index", "Home")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    @if (TempData["LastTempMessage"] != null)
+    {
+        <script>
+
+        alert('@HttpUtility.JavaScriptStringEncode(Convert.ToString(TempData["LastTempMessage"]))');
+        </script>
+    }
+}
